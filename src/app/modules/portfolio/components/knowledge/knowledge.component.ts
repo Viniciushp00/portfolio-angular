@@ -24,6 +24,10 @@ export class KnowledgeComponent {
     {
       src: 'assets/icons/knowledge/angular.svg',
       alt: 'Ícone de conhecimento Angular'
+    },
+    {
+      src: 'assets/icons/knowledge/net.svg',
+      alt: 'Ícone de conhecimento .Net'
     }
   ])
 

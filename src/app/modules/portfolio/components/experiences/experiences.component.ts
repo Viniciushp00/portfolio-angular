@@ -13,10 +13,17 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary:{
-        strong: 'Assistente TI - Sistemas/Desenvolvimento',
-        p: 'Even Construtora | Mar 2022 - Presente'
+        strong: 'Desenvolvedor Full Stack Jr',
+        p: 'Talent Four | Fev 2025 - Presente'
       },
-      text: '<p>Em março de 2022 fui promovido para analista, onde recebi novas responsábilidades, como por exemplo, condução de projetos maiores, o que incluiu a tratativa com as empresas terceiras e áreas envolvidas, para realizar a coleta de requisitos, organização da subida, construção de scripts SQL e homologação da melhoria. Por conta dessas novas resposábilidades comecei a entender mais no detalhe como as aplicações funcionavam e todas as preocupações que se deve ter para manter a sustentação dos sistemas.</p> <p>E em maio de 2024, recebi o convite do meu gestor para começar a atuar na área de desenvolvimento, onde trabalho com projetos .Net e Angular, realizando o desenvolvimento de melhorias e projetos solicitados pelas áreas da empresa. Por conta dessa oportunidade consegui inicar carreira na área de desenvolvimento, sei que tenho um caminho muito longo para trilhar na área, mas a cada dia que passo fico mais apaixonado pela minha profissão.</p>'
+      text: '<p>Em Fevereiro de 2025, recebi uma oferta para trabalhar como desenvolvedor Full Stack na Talent Four, que é uma consultória de tecnologia, nela presto serviços a empresa QualiCorp onde desenvolvo soluções utilizando JavaScript (Node.js e Vue.js)</p>'
+    },
+    {
+      summary:{
+        strong: 'Assistente TI - Sistemas/Desenvolvimento',
+        p: 'Even Construtora | Mar 2022 - Fev 2025'
+      },
+      text: '<p>Em março de 2022 fui promovido para assistente, onde recebi novas responsábilidades, como por exemplo, condução de projetos maiores, o que incluiu a tratativa com as empresas terceiras e áreas envolvidas, para realizar a coleta de requisitos, organização da subida, construção de scripts SQL e homologação da melhoria. Por conta dessas novas resposábilidades comecei a entender mais no detalhe como as aplicações funcionavam e todas as preocupações que se deve ter para manter a sustentação dos sistemas.</p> <p>E em maio de 2024, recebi o convite do meu gestor para começar a atuar na área de desenvolvimento, onde trabalho com projetos .Net e Angular, realizando o desenvolvimento de melhorias e projetos solicitados pelas áreas da empresa. Por conta dessa oportunidade consegui inicar carreira na área de desenvolvimento, sei que tenho um caminho muito longo para trilhar na área, mas a cada dia que passo fico mais apaixonado pela minha profissão.</p>'
     },
     {
       summary:{
@@ -37,7 +44,7 @@ export class ExperiencesComponent {
         strong: 'Jovem Aprendiz',
         p: 'Even Construtora | Aug 2020 - Nov 2021'
       },
-      text: '<p>De agosto de 2020 até novembro de 2021, fui jovem aprendiz trabalhando na construtora Even na área de clientes, erá responsável pela entrega/gestão das chaves dos apartamentos, controle/confecção dos brindes, controle da rota das entregas delivery e também da realização das pesquisas de NPS com os clientes. </p><p>Foi minha primeira experiência no mercado de trabalho, então foi um lugar onde sinto que aprendi o basico de como se portar em trabalho e como contruir para a conclusão das tarefas.</p>'
+      text: '<p>De agosto de 2020 até novembro de 2021, fui jovem aprendiz trabalhando na construtora Even na área de clientes, era responsável pela entrega/gestão das chaves dos apartamentos, controle/confecção dos brindes, controle da rota das entregas delivery e também da realização das pesquisas de NPS com os clientes. </p><p>Foi minha primeira experiência no mercado de trabalho, então foi um lugar onde sinto que aprendi o basico de como se portar em trabalho e como contruir para a conclusão das tarefas.</p>'
     }
   ])
 }
